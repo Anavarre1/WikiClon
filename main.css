@@ -1,0 +1,413 @@
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+    display: block;
+    color: -internal-root-color;
+}
+
+body {
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: .4rem 0;
+    display: block;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.central-featured-logo {
+    position: absolute;
+    top: 136px;
+    left: 35px;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    width: 200px;
+    height: 183px;
+}
+
+.central-textlogo {
+    position: relative;
+    margin: 4rem auto .5rem;
+    width: 270px;
+    font-family: 'Linux Libertine', 'Hoefler Text', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 3.3rem;
+    text-align: center;
+    font-feature-settings: "ss05";
+}
+
+.central-textlogo-wrapper {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.central-textlogo__image {
+    color: transparent;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -10000px;
+}
+
+.svg-Wikipedia_wordmark {
+    background-position: 0 -254px;
+    width: 176px;
+    height: 32px;
+}
+
+.sprite {
+    background-image: linear-gradient(transparent, transparent), url(img/sprite-81a290a5.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.jsl10n-visible .central-featured,
+.jsl10n-visible .jsl10n {
+    visibility: visible;
+}
+
+.js-enabled .central-featured,
+.js-enabled .jsl10n {
+    visibility: visible;
+}
+
+.localized-slogan {
+    display: block;
+    font-family: 'Linux Libertine', Georgia, Times, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.central-featured {
+    position: relative;
+    height: 325px;
+    height: 32.5rem;
+    width: 546px;
+    width: 54.6rem;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div {
+    display: block;
+}
+
+.central-featured-lang .link-box {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    white-space: normal;
+}
+
+.central-featured-lang strong {
+    display: block;
+    font-size: 1.6rem;
+}
+
+.central-featured-lang small {
+    color: #54595d;
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+a,
+a:active,
+a:focus {
+    unicode-bidi: embed;
+    outline: 0;
+    color: #36c;
+}
+
+a {
+    touch-action: manipulation;
+    background-color: transparent;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+.lang1 {
+    top: 0;
+    right: 60%;
+}
+
+.lang2 {
+    top: 0;
+    left: 60%;
+}
+
+.lang3 {
+    top: 20%;
+    right: 70%;
+}
+
+.lang4 {
+    top: 20%;
+    left: 70%;
+}
+
+.lang5 {
+    top: 40%;
+    right: 72%;
+}
+
+.lang6 {
+    top: 40%;
+    left: 72%;
+}
+
+.lang7 {
+    top: 60%;
+    right: 70%;
+}
+
+.lang8 {
+    top: 60%;
+    left: 70%;
+}
+
+.lang9 {
+    top: 80%;
+    right: 60%;
+}
+
+.lang10 {
+    top: 80%;
+    left: 60%;
+}
+
+.central-featured-lang {
+    position: absolute;
+    width: 15.6rem;
+}
+
+bdi {
+    unicode-bidi: -webkit-isolate;
+}
+
+.search-container {
+    float: none;
+    max-width: 95%;
+    width: 540px;
+    margin: .4rem auto 1.95rem auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.search-container fieldset {
+    word-spacing: -4px;
+}
+
+.search-container .search-input {
+    display: inline-block;
+    position: relative;
+    width: 73%;
+    vertical-align: top;
+}
+
+.search-container button {
+    margin: 0;
+    border-radius: 0 2px 2px 0;
+    padding: .8rem 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    vertical-align: middle;
+    z-index: 2;
+}
+
+.screen-reader-text {
+    display: block;
+    position: absolute!important;
+    clip: rect(1px, 1px, 1px, 1px);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+label {
+    cursor: default;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+input {
+    line-height: normal;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+}
+
+input[type="hidden" i] {
+    display: none;
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    border: initial;
+}
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+}
+
+.pure-form fieldset {
+    margin: 0;
+    padding: .56rem 0 1.2rem;
+    border: 0;
+}
+
+.pure-form input[type=search] {
+    background-color: #fff;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #a2a9b1;
+    box-shadow: inset 0 0 0 1px #fff;
+    vertical-align: middle;
+}
+
+.pure-button-primary-progressive {
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+}
+
+.pure-button {
+    display: inline-block;
+    zoom: 1;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    user-select: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1.92rem;
+    min-width: 1.6rem;
+    border: 1px solid #a2a9b1;
+    font-family: inherit;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background .1s ease, color .1s ease, border-color .1s ease, box-shadow .1s ease, -webkit-box-shadow .1s ease, -moz-box-shadow .1s ease;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+}
+
+.styled-select {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    bottom: 1.2rem;
+    right: 1.2rem;
+    max-width: 9.5rem;
+    height: 2.4rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 2px;
+}
+
+.styled-select.js-enabled .hide-arrow {
+    padding: 0 2.4rem 0 .8rem;
+}
+
+.styled-select .hide-arrow {
+    right: 3.2rem;
+    max-width: 6.8rem;
+    height: 2.4rem;
+    overflow: hidden;
+    text-align: right;
+}
+
+.search-container .sprite.svg-arrow-down {
+    position: absolute;
+    top: .7rem;
+    right: .65rem;
+    margin: 0;
+}
+
+.svg-arrow-down {
+    background-position: 0 -519px;
+    width: 12px;
+    height: 8px;
+}
+
+i {
+    font-style: italic;
+}
+
+#searchInput {
+    -webkit-appearance: textfield;
+    width: 100%;
+    height: 4.32rem;
+    border-radius: 2px 0 0 2px;
+    padding: .8rem 10.24rem .8rem .8rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    transition: background .1s ease, border-color .1s ease, box-shadow .1s ease, -webkit-box-shadow .1s ease, -moz-box-shadow .1s ease;
+}
